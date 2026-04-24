@@ -1,0 +1,40 @@
+<!-- carousel section starts here  -->
+      <div className="row">
+        <!-- div to carry the three sections -->
+         <div className="col-md-12">
+            <!-- carousel starts here -->
+            <div className="carousel slide" data-bs-ride="carousel" id="mycarousel">
+                <!-- carousel items -->
+                <div className="carousel-inner">
+                    <!-- div for item one  -->
+                    <div className="carousel-item active">
+                        <img src="" alt="">
+                    </div>
+
+                    <!-- div for item two -->
+                    <div className="carousel-item">
+                        <img src="" alt="">
+                    </div>
+
+                    <!-- div for item three -->
+                    <div className="carousel-item">
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <!-- end of carousel items -->
+                 <!-- carousel controls -->
+                  <a href="#mycarousel"
+                  data-bs-slide="prev"
+                  class="carousel-control-prev">
+                    <span class="carousel-control-prev-icon bg-success"></span>
+                  </a>
+                  <a href="#mycarousel"
+                  data-bs-slide="next"
+                  className="carousel-control-next">
+                    <span className="carousel-control-next-icon bg-success"></span>
+                  </a>
+                  <!-- end of the carousel controls -->
+            </div>
+         </div>
+        </div>
+      <!-- end of the carousel section  -->
