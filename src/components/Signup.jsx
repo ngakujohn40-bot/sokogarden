@@ -108,7 +108,7 @@ const Signup = () => {
                 </form>
                 <br />  
 
-                Already have an account ?<Link to="/signin" className=" btn btn-warning">Sign In</Link>
+                Already have an account ?<Link to="/signin" className=" btn btn-warning">Log In </Link>
             </div>
         </div>
     );

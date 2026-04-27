@@ -59,7 +59,7 @@ const Signin = () => {
         <div className="row justify-content-center mt-4">
             <div className="col-md-6 card shadow p-4 bg-secondary">
 
-                <h2 className="text-dark">Sign In</h2>
+                <h2 className="text-dark">Log In</h2>
 
                 {/* form  */}
                 <form onSubmit={submit}>
@@ -94,7 +94,7 @@ const Signin = () => {
                     </button>
                 </form>
                 <br />
-                    Don't have an account<Link to="/signup" className=" btn btn-danger">Sign up</Link>
+                    Don't have an account<Link to="/signup" className=" btn btn-dark"> Create Account </Link>
 
             </div>
 

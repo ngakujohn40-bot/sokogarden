@@ -41,7 +41,12 @@ const Getproducts = () => {
 
 
     return (
-        <div className="row">     
+        <div className="row">  
+                {/* search bar  */}   
+            <div className="d-flex" role="search">
+                <input type="search" className="form-control" placeholder="Search products..." />
+                <button className="btn btn-outline-primary">Search</button>
+            </div>
                    
            <h3 className="mt-5 text-primary bg-dark"><b>Available Products</b></h3>
 
@@ -57,7 +62,7 @@ const Getproducts = () => {
             {products.map( (product) =>  (
                 <div className="col-md-3 justify-content-center mb-3 bg-secondary" key={product.id}>
                 {/* card to display the product on the page */}
-                    <div className="card shadow card-margin bg-success">
+                    <div className="card shadow card-margin bg-primary">
                         <img
                             src={img_url + product.product_photo}
                             alt={product.product_name}
@@ -75,7 +80,7 @@ const Getproducts = () => {
                             <button 
                                 className="btn btn-dark mt-2 w-100"
                                 onClick={() => navigation("/makepayment", {state: {product}})}
-                            >Purchase Now</button>
+                            >Buy Now</button>
                             
                         </div>
                     </div>

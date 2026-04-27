@@ -17,11 +17,11 @@ function App() {
     <BrowserRouter>
       <div className="App">
       <header className="App-header">
-        <h1 className='text-'>Sokogarden - Buy & Sell Online</h1>
+        <h1 className='text-primary'>Sokogarden - Buy & Sell Online</h1>
       </header>
 
       {/* navigation links */}
-      <nav className='m-4 bg-'>
+      <nav className='m-4 bg-light'>
         <Link to="/" className='btn btn-primary mx-2'>Home</Link> | 
         <Link to="/addproduct" className='btn btn-secondary mx-2'>Addproduct</Link> |
         <Link to="/signup" className='btn btn-warning mx-2'>Sign Up</Link> |

@@ -35,15 +35,14 @@ const Makepayment = () => {
 
 
     return  (
-       <div className="container">
-            <h1>LIPA NA MPESA</h1>
-            <p>Product Name: {product.product_name}</p>
-            <p>Product Cost: {product.product_cost}</p>
-
+       <div className="container bg-info mt-5 p-4 shadow">
+            <h1 className="text-success">LIPA NA MPESA</h1>
+            <p className="text-primary">Product Name: {product.product_name}</p>
+            <p className="text-danger">Product Cost: {product.product_cost}</p>
 
             {/* form */}
             <form onSubmit={submit}>
-                {message}  <br />
+                {message}  
 
                 {/* input fields  */}
                 <input
@@ -57,7 +56,7 @@ const Makepayment = () => {
 
                 {/* button  */}
                 <button
-                    className="btn btn-outline-dark"
+                    className="btn btn-danger"
                 >Make Payment</button>
             </form>
 
